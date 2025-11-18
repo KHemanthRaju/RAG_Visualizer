@@ -8,20 +8,33 @@ An interactive web application that demonstrates the Retrieval-Augmented Generat
 
 Watch a complete walkthrough of the RAG pipeline in action:
 
-[![RAG Visualizer Demo](https://img.youtube.com/vi/PLACEHOLDER/0.jpg)](https://youtube.com/watch?v=PLACEHOLDER)
+**📹 [View Demo Video (HTML Player)](./demo.html)** | **📥 [Download Video](./rag-visualizer-demo.webm)** (6.3 MB)
 
-**Note:** The demo video (`rag-visualizer-demo.webm`) demonstrates:
-- Document input and chunking
-- Embedding generation
-- Vector database storage
-- Query processing
-- Retrieval and generation
+> **Note:** GitHub doesn't support inline video playback. Use the HTML player above or download the video to view it.
+> 
+> **Direct GitHub link:** [Raw Video File](https://raw.githubusercontent.com/KHemanthRaju/RAG_Visualizer/main/rag-visualizer-demo.webm)
 
-To record your own demo:
+The demo video demonstrates the complete RAG pipeline:
+- ✅ **Document Input** - Loading and processing documents with configurable chunk size
+- ✅ **Chunking** - Visualizing how documents are split into chunks
+- ✅ **Embedding Generation** - Converting chunks to vector embeddings
+- ✅ **Vector DB Storage** - Storing embeddings for retrieval
+- ✅ **Query Processing** - Entering queries and searching
+- ✅ **Retrieval** - Finding relevant chunks with similarity scores
+- ✅ **Generation** - Creating responses using retrieved context
+
+### Record Your Own Demo
+
+To create a new demo video:
 ```bash
-npm run dev  # In one terminal
-node record-demo-improved.js  # In another terminal
+# Terminal 1: Start the dev server
+npm run dev
+
+# Terminal 2: Run the recording script
+node record-demo-improved.js
 ```
+
+The video will be saved as `rag-visualizer-demo.webm`.
 
 ## Features
 

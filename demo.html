@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Visualizer Demo Video</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        video {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            background: #000;
+        }
+        .info {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #0ea5e9;
+        }
+        .download-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #0ea5e9;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+        }
+        .download-link:hover {
+            background: #0284c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎥 RAG Process Visualizer - Demo Video</h1>
+        <p class="subtitle">Complete walkthrough of the Retrieval-Augmented Generation pipeline</p>
+        
+        <video controls autoplay muted>
+            <source src="rag-visualizer-demo.webm" type="video/webm">
+            <source src="https://raw.githubusercontent.com/KHemanthRaju/RAG_Visualizer/main/rag-visualizer-demo.webm" type="video/webm">
+            Your browser does not support the video tag. 
+            <a href="rag-visualizer-demo.webm">Download the video</a> instead.
+        </video>
+        
+        <div class="info">
+            <h3>📋 What's Demonstrated:</h3>
+            <ul>
+                <li>✅ Document Input with configurable chunk size</li>
+                <li>✅ Chunking visualization</li>
+                <li>✅ Embedding generation</li>
+                <li>✅ Vector database storage</li>
+                <li>✅ Query processing</li>
+                <li>✅ Retrieval with similarity scores</li>
+                <li>✅ Response generation</li>
+            </ul>
+            
+            <a href="rag-visualizer-demo.webm" class="download-link" download>📥 Download Video</a>
+            <a href="https://raw.githubusercontent.com/KHemanthRaju/RAG_Visualizer/main/rag-visualizer-demo.webm" class="download-link" download style="margin-left: 10px;">📥 Download from GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
+
