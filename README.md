@@ -2,6 +2,8 @@
 
 An interactive web application that demonstrates the Retrieval-Augmented Generation (RAG) pipeline. Visualize how documents are processed through chunking, embedding, and intelligent querying.
 
+![RAG Process Visualizer](screenshot.png)
+
 ## Features
 
 - **Document Processing**: Upload or input documents to process
@@ -30,6 +32,10 @@ npm run dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Live Demo
+
+🌐 **Try it online:** [https://rag-visualizer-azfwfbhan-khemanthrajus-projects.vercel.app](https://rag-visualizer-azfwfbhan-khemanthrajus-projects.vercel.app)
 
 ## How It Works
 
