@@ -4,6 +4,25 @@ An interactive web application that demonstrates the Retrieval-Augmented Generat
 
 ![RAG Process Visualizer](screenshot.png)
 
+## 🎥 Demo Video
+
+Watch a complete walkthrough of the RAG pipeline in action:
+
+[![RAG Visualizer Demo](https://img.youtube.com/vi/PLACEHOLDER/0.jpg)](https://youtube.com/watch?v=PLACEHOLDER)
+
+**Note:** The demo video (`rag-visualizer-demo.webm`) demonstrates:
+- Document input and chunking
+- Embedding generation
+- Vector database storage
+- Query processing
+- Retrieval and generation
+
+To record your own demo:
+```bash
+npm run dev  # In one terminal
+node record-demo-improved.js  # In another terminal
+```
+
 ## Features
 
 - **Document Processing**: Upload or input documents to process
